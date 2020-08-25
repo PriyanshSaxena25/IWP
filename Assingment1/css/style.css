@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+@font-face
+{
+   
+        font-family: 'Cyberpunk';
+        src: url('Cyberpunk-Regular.woff2') format('woff2'),
+            url('Cyberpunk-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+}
+   
+@font-face
+{
+  font-family: CD;
+  src: url("CD.ttf");
+}
+@font-face {
+    font-family: 'Alata';
+    src: url('Alata-Regular.woff2') format('woff2'),
+        url('Alata-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*html, body {
+    height: 100%; 
+    margin: 0; 
+}*/
+
+body {
+
+
+    /*display: flex;
+   
+    justify-content: space-around;
+    display: table;*/
+
+    align-items: center;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.h1{
+    text-align: center;
+    
+    font-family: 'Alata';
+    font-weight: normal;
+    font-style: normal;
+   
+}
+.card {
+    width: 900px;
+     background-color: rgba(0, 253, 177, 0.712);
+     display: flex;
+     align-items: center;
+     margin-bottom: 30px;
+     margin-left:auto;
+     margin-right: auto;
+     padding: 40px;
+     border-radius: 30px;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.card-photo {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.card-photo-img {
+   width: 110%;
+    height: 100%;
+    object-fit: cover;
+     border-radius: 15px;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.card-text {
+    width: 60%;
+}
+
+.badge {
+    background-color: rgba(10, 175, 240, 0.623);
+    display: inline-block;
+    color: black;
+    padding: 10px 15px;
+    font-family: 'Cyberpunk';
+    
+    font-size:20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.heading {
+    font-size: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.subheading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: rgb(236, 213, 213);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1)
+}
+
+.card-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5)
+}
+
+
+
+
